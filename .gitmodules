@@ -1,0 +1,35 @@
+[submodule "infra"]
+    path = infra
+    url = https://github.com/Maverics-Seneca/infrastructure
+	
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Maverics-Seneca/frontend
+
+[submodule "microservices/auth-service"]
+	path = microservices/auth-service
+	url = https://github.com/Maverics-Seneca/auth-service
+
+[submodule "microservices/partner-service"]
+	path = microservices/caretaker-service
+	url = https://github.com/Maverics-Seneca/partner-service
+
+[submodule "microservices/medication-service"]
+	path = microservices/medication-service
+	url = https://github.com/Maverics-Seneca/medication-service
+
+[submodule "microservices/reminder-service"]
+	path = microservices/reminder-service
+	url = https://github.com/Maverics-Seneca/reminder-service
+	
+[submodule "microservices/scraper-service"]
+	path = microservices/scraper-service
+	url = https://github.com/Maverics-Seneca/scraper-service
+
+[submodule "middleware"]
+	path = middleware
+	url = https://github.com/Maverics-Seneca/middleware/
+	branch = dev
+
+[submodule "*"]
+	branch = dev

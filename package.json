@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "firebase": "^11.3.0"
+  },
+  "name": "maverics",
+  "description": "- **Medication adherence platform with smart tracking**\r - **Centralized prescription management** for patients/caregivers\r - **Data-driven insights** for medication optimization\r - **Collaborative care** through partner sharing",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node database_test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arpit-commits/Maverics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arpit-commits/Maverics/issues"
+  },
+  "homepage": "https://github.com/Arpit-commits/Maverics#readme"
+}
