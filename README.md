@@ -25,6 +25,12 @@ Architecture notes for evolving toward production live under `docs/architecture/
 └── README.md               # You are here
 ```
 
+## Legacy root Node artifacts (`package.json`, `commands.txt`)
+
+The repo root still contains historic Maverics scaffold files (`package.json`, `package-lock.json`, `commands.txt`) that target an older Firebase experiment layout (for example referencing `backend/node/database_test.js` paths that may not exist in this tree).
+
+These files are **not** part of the `banking-backend/` + `banking-frontend/` quickstart documented above. Prefer the banking folders for new work unless you intentionally revive the MediTrack submodule stack via `docker-compose.yml`.
+
 ## Prerequisites
 
 - Java **17**
