@@ -1,13 +1,9 @@
-# MediTrack repo + Banking sample app
+#  Banking app
 
 This repository has two overlapping purposes:
+ **A runnable banking prototype** (`banking-backend/`, `banking-frontend/`) intended as an interview-style layered Spring Boot REST API paired with a React + Redux Toolkit (RTK Query-style thunks via `createAsyncThunk`) UI.
 
-1. **Original MediTrack / Maverics scaffolding** (`docker-compose.yml`, `k8s-manifests/`, submodule definitions in `.gitmodules`) for the historic microservices topology.
-2. **A runnable banking prototype** (`banking-backend/`, `banking-frontend/`) intended as an interview-style layered Spring Boot REST API paired with a React + Redux Toolkit (RTK Query-style thunks via `createAsyncThunk`) UI.
 
-Separate GitHub repos that match this codebase:
-
-- [theankitamahajan/Meditrack](https://github.com/theankitamahajan/Meditrack) — mono-repo scaffolding + infra.
 - [theankitamahajan/banking-demo](https://github.com/theankitamahajan/banking-demo) — snapshot focused on hosting the banking app (may omit GitHub Actions depending on repo setup).
 
 Architecture notes for evolving toward production live under `docs/architecture/`.
