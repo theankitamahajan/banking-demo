@@ -2,7 +2,7 @@ npm init -y
 npm install dotenv firebase
 
 in the root directory run:
-node backend/node database_test.js
+node backend /node database_test.js
 
 create a .env file in the root directory:
 FIREBASE_API_KEY=""
