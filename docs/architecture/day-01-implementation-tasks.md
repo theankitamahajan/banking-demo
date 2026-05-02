@@ -4,7 +4,7 @@
 
 Create a stable foundation before deep service extraction.
 
-## Step-by-Step Tasks
+## Step-by-Step Tasks 
 
 1. Standardize service naming:
    - Pick one canonical name: `caretaker-service` or `partner-service`.
