@@ -6,7 +6,7 @@ services:
     ports:
       - "4000:4000"
     environment:
-      - JWT_SECRET=${JWT_SECRET}
+      - JWT_SECRET=${JWT_SECRET} 
       - FIREBASE_CREDENTIALS=${FIREBASE_CREDENTIALS}
       - RESEND_API_KEY=${RESEND_API_KEY}
       - CORS_ORIGIN=http://middleware:3001
