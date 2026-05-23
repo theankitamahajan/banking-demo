@@ -2,7 +2,7 @@
 
 ## Baseline (Current State in This Repository)
 
-This repository is currently an orchestration shell:
+This repository is currently an orchestration shell: 
 
 - Root-level `docker-compose.yml` coordinates multiple services.
 - `k8s-manifests/` defines AKS deployment resources.
