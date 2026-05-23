@@ -11,7 +11,7 @@ Create a stable foundation before deep service extraction.
    - Apply consistently across docs, manifests, and CI.
 2. Introduce API contract stubs:
    - Add OpenAPI specs for `auth`, `medication`, `reminder`, and `caretaker`.
-   - Include request/response examples and error model.
+   - Include request/response examples and error model.    
 3. Define cross-cutting headers:
    - `X-Request-Id`, `X-Idempotency-Key`, `X-User-Id`.
    - Add pass-through requirements at gateway/middleware.
