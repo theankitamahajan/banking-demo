@@ -8,7 +8,7 @@ This repository is currently an orchestration shell:
 - `k8s-manifests/` defines AKS deployment resources.
 - GitHub Actions workflows build/push images and deploy manifests.
 - Service code (`auth-service`, `medication-service`, `reminder-service`, `caretaker-service`, `middleware`, `frontend`) is referenced as submodules in `.gitmodules`, but those directories are not present in this repo snapshot.
-
+   
 ### Immediate Risks
 
 1. Limited local testability because business logic is not versioned in this repository.
