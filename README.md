@@ -5,7 +5,7 @@ A clean, interview-quality full-stack banking prototype demonstrating modern dev
 **Repository:** [theankitamahajan/banking-demo](https://github.com/theankitamahajan/banking-demo)
 
 ## Tech Stack
-
+    
 - **Backend:** Spring Boot 3 REST API + JPA + H2 (development database)
 - **Frontend:** React 18 + Vite + Redux Toolkit (`createAsyncThunk`)
 - **Architecture Notes:** See `docs/architecture/` for design decisions
