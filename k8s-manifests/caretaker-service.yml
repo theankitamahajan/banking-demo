@@ -6,7 +6,7 @@ metadata:
 spec:
   replicas: 1
   selector:
-    matchLabels:
+    matchLabels: 
       app: caretaker-service
   template:
     metadata:
