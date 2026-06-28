@@ -1,5 +1,5 @@
 # Banking App
-
+ 
 A clean, interview-quality full-stack banking prototype demonstrating modern development practices.
 
 **Repository:** [theankitamahajan/banking-demo](https://github.com/theankitamahajan/banking-demo)
